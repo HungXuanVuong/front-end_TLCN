@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>AnhHung.com</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/carousel.css" rel="stylesheet">
+	<style>
+		.main-content {
+			margin-top: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Giới Thiệu Ứng Viên</a>
+				</div>
+				<!-- <div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Đăng nhập</a></li>
+						<a href="#" class="btn btn-success navbar-btn navbar-right">Đăng ký</a>
+					</ul>
+				</div> -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="fa fa-user fa-fw" style="color:#006699"></i> <i class="fa fa-caret-down" style="color:#006699"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-user">
+								<li><a href="#"><i class="fa fa-user fa-fw"></i> Thông tin tài khoản</a>
+								</li>
+								<li class="divider"></li>
+								<li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
+								</li>
+							</ul>
+							<!-- /.dropdown-user -->
+						</li>
+						<!-- <a href="#" class="btn btn-success navbar-btn navbar-right">Đăng ký</a> -->
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div> <!-- #header -->
+
+	<div id="content">
+		<div class="container main-content">
+			<form class="form-horizontal">
+				<fieldset>
+					<legend style="text-align:center">Nhập thông tin ứng viên</legend>
+					<div class="col-md-8 col-md-offset-2">
+						<div class="form-group">
+							<label for="name" class="col-md-2 control-label">Họ và tên</label>
+							<div class="col-md-10">
+								<input type="text" class="form-control" id="name" placeholder="Họ và tên">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputEmail" class="col-md-2 control-label">Email</label>
+							<div class="col-md-10">
+								<input type="text" class="form-control" id="inputEmail" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="school" class="col-md-2 control-label">Trường</label>
+							<div class="col-md-10">
+								<input type="text" class="form-control" id="school" placeholder="Trường">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="tel" class="col-md-2 control-label">SĐT</label>
+							<div class="col-md-10">
+								<input type="tel" class="form-control" id="tel" placeholder="Số điện thoại">
+							</div>
+						</div>      
+						<div class="form-group">
+							<label class="col-md-2 control-label" for="sex">Giới tính</label>
+							<div class="col-md-10">
+								<div class="radio">
+									<label>
+										<input type="radio" name="sex" id="sex" value="male" checked>
+										Nam
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="sex" id="sex" value="female">
+										Nữ
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="cv" class="col-md-2 control-label">CV/Résume</label>
+							<div class="col-md-10">
+								<input type="file" id="cv">
+								<span class="help-block">Định dạng: .PDF, .DOC, .DOCX</span>
+								<span class="help-block">Kích thước tối đa: 2MB</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-10 col-md-offset-2">
+								<button type="submit" class="btn btn-primary">Giới thiệu/Ứng tuyển</button>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div> <!-- End container-->
+	</div><!-- #content -->
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-center">
+					<ul class="list-inline">
+						<li><a href="#">Trang chủ</a></li>
+						<li><a href="#">Giới thiệu</a></li>
+						<li><a href="mailto:masazukass@gmail.com">Liên hệ</a></li>
+					</ul>
+
+				</div>
+				<div id="socialicons" class="col-sm-6 text-center">
+					<a class="icon" href="LINK" title="Follow with Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a class="icon" href="LINK" title="Follow with Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a class="icon" href="LINK" title="Follow with Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+					<a class="icon" href="LINK" title="Follow with Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a>
+					<a class="icon" href="LINK" title="Follow with Bloglovin" target="_blank"><i class="fa fa-heart"></i></a>
+					<a class="icon" href="LINK" title="Follow with Pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
+					<a class="icon" href="LINK" title="Follow with YouTube" target="_blank"><i class="fa fa-youtube"></i></a>
+					<a class="icon" href="LINK" title="Follow with Tumblr" target="_blank"><i class="fa fa-tumblr"></i></a>
+					<a class="icon" href="LINK" title="Follow with RSS" target="_blank"><i class="fa fa-rss"></i></a>
+					<a class="icon" href="mailto:LINK" title="Email Me" target="_blank"><i class="fa fa-envelope"></i></a>
+				</div>
+			</div>
+			<div class="col-sm-12 text-center">
+				<p class="text-muted">Bản quyền thuộc về AnhHung.com</p>
+			</div>
+		</div>
+	</div>
+</div><!-- #footer -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.bxslider').bxSlider();
+	});
+</script>
+
+</body>
+</html>
