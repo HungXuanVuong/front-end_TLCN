@@ -10,17 +10,17 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="css/carousel.css" rel="stylesheet">
 	<style>
-        .navbar-brand {
-               padding: 0px;
-        }
-        .navbar-brand>img {
-              height: 100%;
-              padding: 0px;
-              width: auto;
-        }
+		.navbar-brand {
+			padding: 0px;
+		}
+		.navbar-brand>img {
+			height: 100%;
+			padding: 0px;
+			width: auto;
+		}
 		.main-content {
-			margin-top: 75px;
-		}'
+			margin-top: 15px;
+		}
 		.content{
 			font-size:40px;
 		}
@@ -41,25 +41,59 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-                    <a class="navbar-brand" href="index.html"><img src="img/HKGroup.png" alt="Dispute Bills" ></a>
+					<a class="navbar-brand" href="index.html"><img src="img/HKGroup.png" alt="Dispute Bills" ></a>
 				</div>
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Đăng nhập</a></li>
-						<a href="#" class="btn btn-success navbar-btn navbar-right">Đăng ký</a>
-					</ul>
-				</div>
+						
+						<li>
+							<a href='file:///E:/HOC%20TAP/HK7/TLCN/TL/front-end/admin/index.html'>Admin</a>
+						</li>
+						<li>
+							<a href="jobDashboardHome.html">Job dashboad</a>
+						</li>
+						<li>
+							<a href="shopping.html">Shopping</a>
+						</li>
+						
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="fa fa-user fa-fw" style="color:#006699"></i> <i class="fa fa-caret-down" style="color:#006699"></i>
+							</a>
+							<ul class="dropdown-menu dropdown-user">
+								<li><a href="userProfile.html"><i class="fa fa-user fa-fw"></i> Thông tin</a>
+								</li>
+								<!-- <li><a onclick="window.location.href='file:///E:/HOC%20TAP/HK7/TLCN/TL/admin/index.html'"><i class="fa fa-user-secret fa-fw"></i> Quản trị</a>
+							</li> -->
+							<li class="divider"></li>
+							<li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Đăng xuất</a>
+						</li>
+						</ul>
+						<!-- /.dropdown-user -->
+					</li>
+				</ul>
 			</div>
-		</nav>
-	</div> <!-- #header -->
+		</div>
+	</nav>
+</div> <!-- #header -->
 
 	<div id="content">
+		<div id="calltoaction">
+			<div class="jumbotron">
+				
+			</div>
+		</div>
+	<!-- 	<div class="col-lg-12 imgChiTiet">
+	
+		</div> -->
 		<div class="container main-content">
-			<div class="panel panel-default">
+			<div class="panel panel-info">
 				<div class="panel-heading">
-					<div class="jumbotron">
-						<img src="img/intro.png" alt="intro" class="img-responsive">
-					</div>
+					<!-- <div class="jumbotron">
+						
+					</div> -->
+					<p style="font-size: 30px;">Chi tiết tin tuyển dụng</p>
+
 				</div>
 				<div class="panel-body">
 					<div class="col-md-8 col-xs-12">
@@ -68,31 +102,6 @@
 								<a href="userProfile.html" class="btn btn-primary">Ứng tuyển</a>
 								<a href="formgioithieu.html" class="btn btn-success">Giới thiệu</a>
 							</div>
-							<!-- <div class="info_job">
-								<table>
-									<tr>
-										<td width="50%">Vị trí tuyển dụng :</td>
-										<td width="50%">Fresher Developers</td>
-									</tr>
-									<tr>
-										<td>Địa điểm :</td>
-										<td>Hà Nội,Đà Nẵng,HCM</td>
-									</tr>
-									<tr>
-										<td>Số lượng :</td>
-										<td>1000</td>
-									</tr>
-									<tr>
-										<td>Lương :</td>
-										<td>10.000.000 -15.000.000 / khoá</td>
-									</tr>
-									<tr>
-										<td>Ngày bắt đầu :</td>
-										<td>30-09-2017</td>
-									</tr>
-								</table>
-							</div> -->
-
 							<h4 class="career_job_description">Mô tả công việc</h4>
 							<div class="job_description" itemprop="description">
 								<ul>
@@ -150,35 +159,35 @@
 						<div class="row">
 							<div class="panel panel-default">
 								<div class="panel-body">
-								<div class="content">
-									<div class="row " style="padding-bottom: 5px; font-weight: bold">
-										<div class="col-lg-12">
-											[HN] 06 Java developers onsite in Singapore
-										</div>
+									<div class="content">
+										<div class="row " style="padding-bottom: 5px; font-weight: bold">
+											<div class="col-lg-12">
+												[HN] 06 Java developers onsite in Singapore
+											</div>
 
-										
+
+										</div>
+										<div class="row">
+											<div class="col-lg-6">Ngày đăng</div>
+											<div class="col-lg-6">01/08/2015</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-6">Hạn nộp hồ sơ</div>
+											<div class="col-lg-6">01/09/2015</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-6">Vị trí tuyển dụng</div>
+											<div class="col-lg-6">Fresher Developers</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-6">Địa điểm</div>
+											<div class="col-lg-6">Hà Nội,Đà Nẵng,HCM</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-6">Số lượng</div>
+											<div class="col-lg-6">15</div>
+										</div>
 									</div>
-									<div class="row">
-										<div class="col-lg-6">Ngày đăng</div>
-										<div class="col-lg-6">01/08/2015</div>
-									</div>
-									<div class="row">
-										<div class="col-lg-6">Hạn nộp hồ sơ</div>
-										<div class="col-lg-6">01/09/2015</div>
-									</div>
-									<div class="row">
-										<div class="col-lg-6">Vị trí tuyển dụng</div>
-										<div class="col-lg-6">Fresher Developers</div>
-									</div>
-									<div class="row">
-										<div class="col-lg-6">Địa điểm</div>
-										<div class="col-lg-6">Hà Nội,Đà Nẵng,HCM</div>
-									</div>
-									<div class="row">
-										<div class="col-lg-6">Số lượng</div>
-										<div class="col-lg-6">15</div>
-									</div>
-								</div>
 
 
 									<!-- <h4 class="career_job_description">Tài liệu tham khảo</h4>
@@ -213,58 +222,58 @@
 		</div> <!-- End container-->
 	</div><!-- #content -->
 
-<!-- footer -->
+	<!-- footer -->
 	<footer class="text-center">
-			<div class="footer-above">
+		<div class="footer-above">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col col-md-4">
+						<h3>Địa chỉ</h3>
+						<p>1 Võ văn ngân, Phường linh chiểu
+							<br>Quận Thủ Đức, Tp.HCM</p>
+						</div>
+						<div class="footer-col col-md-4">
+							<h3>Mạng xã hội</h3>
+							<ul class="list-inline">
+								<!-- some social networks -->
+								<li><a class="icon" href="LINK" title="Follow with Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a class="icon" href="LINK" title="Follow with Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+								<li><a class="icon" href="LINK" title="Follow with YouTube" target="_blank"><i class="fa fa-youtube"></i></a></li>
+								<li><a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a></li>
+
+							</ul>
+						</div>
+						<div class="footer-col col-md-4">
+							<h3>Hùng-Khiêm</h3>
+							<p>Nhóm tiểu luận chuyên ngành K14 </p>
+							<p><a href="http://hcmute.edu.vn">Trường đại học sư phạm kỹ thuật Tp.HCM</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-below">
 				<div class="container">
 					<div class="row">
-						<div class="footer-col col-md-4">
-							<h3>Địa chỉ</h3>
-							<p>1 Võ văn ngân, Phường linh chiểu
-								<br>Quận Thủ Đức, Tp.HCM</p>
-							</div>
-							<div class="footer-col col-md-4">
-								<h3>Mạng xã hội</h3>
-								<ul class="list-inline">
-									<!-- some social networks -->
-									<li><a class="icon" href="LINK" title="Follow with Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-									<li><a class="icon" href="LINK" title="Follow with Google Plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-									<li><a class="icon" href="LINK" title="Follow with YouTube" target="_blank"><i class="fa fa-youtube"></i></a></li>
-									<li><a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a></li>
-									
-								</ul>
-							</div>
-							<div class="footer-col col-md-4">
-								<h3>Hùng-Khiêm</h3>
-								<p>Nhóm tiểu luận chuyên ngành K14 </p>
-								<p><a href="http://hcmute.edu.vn">Trường đại học sư phạm kỹ thuật Tp.HCM</a></p>
-							</div>
+						<div class="col-lg-12">
+							Copyright &copy; 2017
+							UTER
 						</div>
 					</div>
 				</div>
-				<div class="footer-below">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12">
-								Copyright &copy; 2017
-								UTER
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+			</div>
+		</footer>
 
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/jquery.bxslider.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<script>
-	$(document).ready(function(){
-		$('.bxslider').bxSlider();
-	});
-</script>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.bxslider').bxSlider();
+			});
+		</script>
 
-</body>
-</html>
+	</body>
+	</html>

@@ -78,7 +78,7 @@
 
                 <div class="col-md-10 col-md-offset-1">
                     <ul class="breadcrumb">
-                        <li>Shopping cart</li>
+                        <li>Giỏ hàng</li>
                     </ul>
                 </div>
 
@@ -87,7 +87,7 @@
                     <div class="box">
 
                         <form method="POST" action="">
-                            <p class="text-muted">Có 3 sản phẩm trong giỏ hàng của bạn.</p>
+                            <p class="text-muted">Có 3 sản phẩm trong giỏ quà của bạn.</p>
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead>
@@ -105,7 +105,7 @@
                                                     <img src="img/shopdh.jpg" height="42" width="42" alt="White Blouse Armani">
                                                 </a>
                                             </td>
-                                            <td><a href="#">White Blouse Armani</a>
+                                            <td><a href="#">Đồng hồ rolex</a>
                                             </td>
                                             <td>
                                                 <input type="number" value="2" min="0" max="10" class="form-control">
@@ -121,7 +121,7 @@
                                                     <img src="img/shopnoel.jpg" height="42" width="42" alt="Black Blouse Armani">
                                                 </a>
                                             </td>
-                                            <td><a href="#">Black Blouse Armani</a>
+                                            <td><a href="#">Trang trí noel</a>
                                             </td>
                                             <td>
                                                 <input type="number" value="1" min="0" max="10" class="form-control">
@@ -137,7 +137,7 @@
                                                     <img src="img/shopnoel8.jpg" height="42" width="42" alt="Black Blouse Armani">
                                                 </a>
                                             </td>
-                                            <td><a href="#">Black Blouse Armani</a>
+                                            <td><a href="#">Đầm giáng sinh</a>
                                             </td>
                                             <td>
                                                 <input type="number" value="1" min="0" max="10" class="form-control">
@@ -161,12 +161,12 @@
 
                             <div class="box-footer">
                                 <div class="pull-left">
-                                    <a href="shopping-page-noel.html" class="btn btn-default"><i class="fa fa-chevron-left"></i> Tiếp tục mua hàng</a>
+                                    <a href="shopping-page-noel.html" class="btn btn-default"><i class="fa fa-chevron-left"></i> Tiếp tục chọn quà</a>
                                 </div>
                                 <div class="pull-right">
                                     <!-- <button class="btn btn-default"><i class="fa fa-refresh"></i> Cập nhật giỏ hàng</button> -->
-                                    <button onclick="window.location.href='file:///E:/HOC%20TAP/HK7/TLCN/TL/front-end/checkout.html'" class="btn btn-primary">Thanh toán <i class="fa fa-chevron-right"></i>
-                                    </button>
+                                    <a href="checkout.html" class="btn btn-primary">Thanh toán <i class="fa fa-chevron-right"></i>
+                                    </a>
 
                                 </div>
                             </div>
@@ -240,31 +240,31 @@
                 panels.hide();
 
     //Click dropdown
-    panelsButton.click(function() {
-        //get data-for attribute
-        var dataFor = $(this).attr('data-for');
-        var idFor = $(dataFor);
+    // panelsButton.click(function() {
+    //     //get data-for attribute
+    //     var dataFor = $(this).attr('data-for');
+    //     var idFor = $(dataFor);
 
-        //current button
-        var currentButton = $(this);
-        idFor.slideToggle(400, function() {
-            //Completed slidetoggle
-            if(idFor.is(':visible'))
-            {
-                currentButton.html('<i class="glyphicon glyphicon-chevron-up text-muted"></i>');
-            }
-            else
-            {
-                currentButton.html('<i class="glyphicon glyphicon-chevron-down text-muted"></i>');
-            }
-        })
-    });
-    $('[data-toggle="tooltip"]').tooltip();
+    //     //current button
+    //     var currentButton = $(this);
+    //     idFor.slideToggle(400, function() {
+    //         //Completed slidetoggle
+    //         if(idFor.is(':visible'))
+    //         {
+    //             currentButton.html('<i class="glyphicon glyphicon-chevron-up text-muted"></i>');
+    //         }
+    //         else
+    //         {
+    //             currentButton.html('<i class="glyphicon glyphicon-chevron-down text-muted"></i>');
+    //         }
+    //     })
+    // });
+    // $('[data-toggle="tooltip"]').tooltip();
 
-    $('button').click(function(e) {
-        e.preventDefault();
-        alert("This is a demo.\n :-)");
-    });
+    // $('button').click(function(e) {
+    //     e.preventDefault();
+    //     alert("This is a demo.\n :-)");
+    // });
 });
 </script>
 
